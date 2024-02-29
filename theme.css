@@ -1,0 +1,285 @@
+@font-face {
+  font-family: "Avenir";
+  src: url("font/Avenir.ttc") format("ttc");
+}
+
+:root {
+  --primary: #3b5172;
+  --black: #000000;
+  --white: #ffffff;
+  --red: rgba(255, 63, 47, 1);
+  --gradiant-bg: linear-gradient(
+    211.43deg,
+    rgba(199, 224, 255, 0.8) 20.41%,
+    rgba(229, 241, 255, 0.8) 39.45%,
+    rgba(241, 247, 255, 0.8) 86.03%
+  );
+  --gradiant-bg-alert: linear-gradient(
+    211.43deg,
+    #ffe6e3 20.41%,
+    #fff6f6 39.45%,
+    #fffafa 86.03%
+  );
+  --gradiant-cta: linear-gradient(262.6deg, #fa6e63 1.44%, #d82b1b 69.29%);
+
+  --xxlExtraBold: 900 32px/42px "Avenir";
+  --xxlBold: 800 56px/76px "Avenir";
+  --xlExtraBold: 900 32px/42px "Avenir";
+  --xlBold: 800 32px/45px "Avenir";
+  --xlRegular: 400 32px/45px "Avenir";
+  --lExtraBold: 900 20px/28px "Avenir";
+  --lBold: 800 20px/28px "Avenir";
+  --lMedium: 500 20px/28px "Avenir";
+  --lRegular: 400 20px/28px "Avenir";
+  --mExtraBold: 900 16px/22px "Avenir";
+  --mBold: 800 16px/22px "Avenir";
+  --mMedium: 500 16px/22px "Avenir";
+  --mRegular: 400 16px/22px "Avenir";
+  --sExtraBold: 900 14px/20px "Avenir";
+  --sBold: 800 14px/20px "Avenir";
+  --sMedium: 500 14px/20px "Avenir";
+  --sRegular: 400 14px/20px "Avenir";
+  --xsRegular: 400 12px/17px "Avenir";
+  --xsMedium: 500 12px/17px "Avenir";
+  --mobileExtrabold: 900 24px/31px "Avenir";
+  --mobileBold: 800 24px/31px "Avenir";
+  --mobileMedium: 500 24px/31px "Avenir";
+  --mobileRegular: 400 24px/31px "Avenir";
+  --l2: 800 18px/25.2px "Avenir";
+}
+.primaryColor {
+  color: #3b5172;
+}
+.blackColor {
+  color: var(--black);
+}
+.processColor {
+  color: rgba(2, 123, 14, 1);
+}
+.bg-white{
+  background-color: var(--white);
+}
+.no-margin{
+  margin: 0 !important;
+}
+.no-padding{
+  padding: 0 !important;
+}
+.xxlExtraBold {
+  font-family: "Avenir";
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.xxlBold {
+  font-family: Avenir;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 76px;
+  letter-spacing: 0.21em;
+  text-align: left;
+}
+.xlExtraBold {
+  /* styleName: XL/Extra Bold; */
+  font-family: Avenir;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.xlBold {
+  /* styleName: XL/Bold; */
+  font-family: Avenir;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.xlRegular {
+  /* styleName: XL/Regular; */
+  font-family: Avenir;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.lExtraBold {
+  /* styleName: Large/Extra-Bold; */
+  font-family: Avenir;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.lBold {
+  /* styleName: Large/Bold; */
+  font-family: Avenir;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.lMedium {
+  /* styleName: Large/Medium; */
+  font-family: Avenir;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.lRegular {
+  /* styleName: Large/Regular; */
+  font-family: Avenir;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.mExtraBold {
+  /* styleName: Medium/Extra-Bold; */
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.mBold {
+  /* styleName: Medium/Bold; */
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.mMedium {
+  /* styleName: Medium/Medium; */
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.mRegular {
+  /* styleName: Medium/Regular; */
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.sExtraBold {
+  /* styleName: Small/Extra-Bold; */
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.sBold {
+  /* styleName: Small/Bold; */
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.sMedium {
+  /* styleName: Small/Medium; */
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.sRegular {
+  /* styleName: Small/Regular; */
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.xsMedium {
+  /* styleName: XS/Medium; */
+  font-family: Avenir;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.xsMedium {
+  /* styleName: XS/Medium; */
+  font-family: Avenir;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.mobileExtrabold {
+  /* styleName: Mobile- Header/Mobile - Extrabold; */
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.mobileBold {
+  /* styleName: Mobile- Header/Mobile-Bold; */
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.mobileMedium {
+  /* styleName: Mobile- Header/Mobile-Medium; */
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.mobileRegular {
+  /* styleName: Mobile- Header/Mobile-Regular; */
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.xsRegular{
+  font: var(--xsRegular);
+}
